@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mouse">
+        <div>
+           <input id="result" class="sult" type="text">
+           </div>
+           <div >
+               <button class="bor">MC</button>
+               <button class="bor">MR</button>
+              <button class="bor">M+</button>
+              <button class="bor">M-</button>
+              
+              </div>
+           <div >
+            <button  onclick="getNumber('%')" class="bor">%</button>
+            <button class="bor">CE</button>
+           <button  onclick="clearResult()" class="bor">C</button>
+           <button class="bor">DEL</button>
+           </div>
+           <div >
+               <button onclick="getDivide()" class="bor">1/x</button>
+               <button onclick=" getSquare()" class="bor">x<sup>2</sup></button>
+              <button  onclick=" getCube()" class="bor">x<sup>3</sup></button>
+              <button onclick="getNumber('/')" class="bor">/</button>
+              </div>
+           <div>
+               <button onclick="getNumber('7')" class="bor">7</button>
+               <button onclick="getNumber('8')" class="bor">8</button>
+               <button onclick="getNumber('9')" class="bor">9</button>
+               <button onclick="getNumber('*')"class="bor">X</button>
+              </div>
+              <div>
+               <button onclick="getNumber('4')" class="bor">4</button>
+               <button onclick="getNumber('5')" class="bor">5</button>
+               <button onclick="getNumber('6')" class="bor">6</button>
+               <button onclick="getNumber('-')" class="bor">-</button>
+              </div>
+              <div>
+               <button  class="bor" onclick="getNumber('1')">1</button>
+               <button onclick="getNumber('2')" class="bor">2</button>
+               <button onclick="getNumber('3')" class="bor">3</button>
+               <button onclick="getNumber('+')" class="bor">+</button>
+              </div>
+              <div>
+               <button onclick="getNumber('+/-')" class="bor">+/-</button>
+               <button onclick="getNumber('0')" class="bor">0</button>
+               <button onclick="getNumber('.')" class="bor">.</button>
+               <button onclick="getResult()" class="bor">=</button>
+              </div>
+       </div>
+   </body>
+   <script src="app.js"></script>
+   </html>
